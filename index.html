@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miss Cupcake</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Wendy+One&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="main-container margin-right-12 margin-left-12">
+        <header>
+            <div class="navbar ">
+                <img src="./assets/Hamburger.svg" alt="Hamburger Icon">
+                <img src="./assets/Trolley icon.svg" alt="Cart Icon">
+            </div>
+            <div class="header-description margin-bottom-46">
+                <h1>Miss cupcake</h1>
+                <p class="line-height-26 text-justify font-size-18 margin-bottom-34">We are proud to offer cupcakes and
+                    cakes that are
+                    freshly baked
+                    within hours,
+                    if not minutes, for
+                    your
+                    enjoyment.</p>
+                <button class="button-main">SHOP NOW</button>
+            </div>
+            <img src="./assets/Header Image.png" alt="cupcakes Images" class="header-image">
+        </header>
+        <main>
+            <section>
+                <h2>The Simple, Sweet Life</h2>
+                <p class="line-height-26 text-justify font-size-18 margin-bottom-22">Our cupcakes are always made with
+                    the finest
+                    ingredients, creating a spark that makes your taste
+                    buds dance. You’ll want to indulge in each and every decadent flavor.</p>
+                <button class="button-main">WHY MISS CUPCAKE</button>
+                <div class="image-container">
+                    <img src="./assets/Section Image.png" alt="Cupcakes Images" class="cupcake-2">
+                </div>
+            </section>
+            <section class="section-2">
+                <h2>Make your day a little sweeter</h2>
+                <article>
+                    <figure class="catalog-container">
+                        <img src="./assets/cupcakes/cupcake 1.png" alt="Cupcake 1">
+                        <figcaption>
+                            <h3>Carrot</h3>
+                            <p>Walnut-studded carrot cake with cinnamon cream cheese frosting</p>
+                        </figcaption>
+                        <form class="button-container">
+                            <div class="increase-decrease">
+                                <div class="value-button" id="decrease" onclick="decreaseValue()"
+                                    value="Decrease Value">-
+                                </div>
+                                <input type="number" id="number" value="0" />
+                                <div class="value-button" id="increase" onclick="increaseValue()"
+                                    value="Increase Value">+
+                                </div>
+                            </div>
+                            <button class="button-main">ADD TO CART</button>
+                        </form>
+                    </figure>
+                </article>
+                <article>
+                    <figure class="catalog-container">
+                        <img src="./assets/cupcakes/cupcake 2.png" alt="Cupcake 2">
+                        <figcaption>
+                            <h3>Red Velvet</h3>
+                            <p>A chocolate sponge, coloured naturally with beetroot and topped off with cream cheese.
+                            </p>
+                        </figcaption>
+                        <form class="button-container">
+                            <div class="increase-decrease">
+                                <div class="value-button" id="decrease" onclick="decreaseValue()"
+                                    value="Decrease Value">-
+                                </div>
+                                <input type="number" id="number" value="0" />
+                                <div class="value-button" id="increase" onclick="increaseValue()"
+                                    value="Increase Value">+
+                                </div>
+                            </div>
+                            <button class="button-main">ADD TO CART</button>
+                        </form>
+                    </figure>
+                </article>
+                <article>
+                    <figure class="catalog-container">
+                        <img src="./assets/cupcakes/cupcake 3.png" alt="Cupcake 3">
+                        <figcaption>
+                            <h3>Mint Chip</h3>
+                            <p>Homemade chocolate cupcakes topped with thick & creamy mint chocolate chip frosting.</p>
+                        </figcaption>
+                        <form class="button-container">
+                            <div class="increase-decrease">
+                                <div class="value-button" id="decrease" onclick="decreaseValue()"
+                                    value="Decrease Value">-
+                                </div>
+                                <input type="number" id="number" value="0" />
+                                <div class="value-button" id="increase" onclick="increaseValue()"
+                                    value="Increase Value">+
+                                </div>
+                            </div>
+                            <button class="button-main">ADD TO CART</button>
+                        </form>
+                    </figure>
+                </article>
+                <article>
+                    <figure class="catalog-container">
+                        <img src="./assets/cupcakes/image 3.png" alt="Cupcake 4">
+                        <figcaption>
+                            <h3>Pink strawberry</h3>
+                            <p>A fluffy strawberry cupcake with strawberry buttercream frosting and chocolate syrup.
+                            </p>
+                        </figcaption>
+                        <form class="button-container">
+                            <div class="increase-decrease">
+                                <div class="value-button" id="decrease" onclick="decreaseValue()"
+                                    value="Decrease Value">-
+                                </div>
+                                <input type="number" id="number" value="0" />
+                                <div class="value-button" id="increase" onclick="increaseValue()"
+                                    value="Increase Value">+
+                                </div>
+                            </div>
+                            <button class="button-main">ADD TO CART</button>
+                        </form>
+                    </figure>
+                </article>
+                <article>
+                    <figure class="catalog-container">
+                        <img src="./assets/cupcakes/image 4.png" alt="Cupcake 5">
+                        <figcaption>
+                            <h3>Marshmallow</h3>
+                            <p>A super chocolatey cupcake base with a soft marshmallowy buttercream topping.</p>
+                        </figcaption>
+                        <form class="button-container">
+                            <div class="increase-decrease">
+                                <div class="value-button" id="decrease" onclick="decreaseValue()"
+                                    value="Decrease Value">-
+                                </div>
+                                <input type="number" id="number" value="0" />
+                                <div class="value-button" id="increase" onclick="increaseValue()"
+                                    value="Increase Value">+
+                                </div>
+                            </div>
+                            <button class="button-main">ADD TO CART</button>
+                        </form>
+                    </figure>
+                </article>
+                <article>
+                    <figure class="catalog-container">
+                        <img src="./assets/cupcakes/image 5.png" alt="Cupcake 6">
+                        <figcaption>
+                            <h3>Dark Chocolate</h3>
+                            <p>Belgian chocolate cake with sweet chocolate frosting and cheery.</p>
+                        </figcaption>
+                        <form class="button-container">
+                            <div class="increase-decrease">
+                                <div class="value-button" id="decrease" onclick="decreaseValue()"
+                                    value="Decrease Value">-
+                                </div>
+                                <input type="number" id="number" value="0" />
+                                <div class="value-button" id="increase" onclick="increaseValue()"
+                                    value="Increase Value">+
+                                </div>
+                            </div>
+                            <button class="button-main">ADD TO CART</button>
+                        </form>
+                    </figure>
+                </article>
+                <article>
+                    <figure class="catalog-container">
+                        <img src="./assets/cupcakes/image 6.png" alt="Cupcake 7">
+                        <figcaption>
+                            <h3>Salty Caramel</h3>
+                            <p>Caramel cake with a buttery caramel cream cheese frosting topped with fleur de sel.</p>
+                        </figcaption>
+                        <form class="button-container">
+                            <div class="increase-decrease">
+                                <div class="value-button" id="decrease" onclick="decreaseValue()"
+                                    value="Decrease Value">-
+                                </div>
+                                <input type="number" id="number" value="0" />
+                                <div class="value-button" id="increase" onclick="increaseValue()"
+                                    value="Increase Value">+
+                                </div>
+                            </div>
+                            <button class="button-main">ADD TO CART</button>
+                        </form>
+                    </figure>
+                </article>
+                <article>
+                    <figure class="catalog-container">
+                        <img src="./assets/cupcakes/image 7.png" alt="Cupcake 8">
+                        <figcaption>
+                            <h3>Gluten Free Velvet</h3>
+                            <p>A gluten free twist on our classic red velvet, topped off with cream cheese.</p>
+                        </figcaption>
+                        <form class="button-container">
+                            <div class="increase-decrease">
+                                <div class="value-button" id="decrease" onclick="decreaseValue()"
+                                    value="Decrease Value">-
+                                </div>
+                                <input type="number" id="number" value="0" />
+                                <div class="value-button" id="increase" onclick="increaseValue()"
+                                    value="Increase Value">+
+                                </div>
+                            </div>
+                            <button class="button-main">ADD TO CART</button>
+                        </form>
+                    </figure>
+                </article>
+                <article>
+                    <figure class="catalog-container">
+                        <img src="./assets/cupcakes/image 8.png" alt="Cupcake 9">
+                        <figcaption>
+                            <h3>Cinnamon</h3>
+                            <p>Lightly spiced buttermilk cake with cinnamon cream cheese frosting with cinnamon sugar.
+                            </p>
+                        </figcaption>
+                        <form class="button-container">
+                            <div class="increase-decrease">
+                                <div class="value-button" id="decrease" onclick="decreaseValue()"
+                                    value="Decrease Value">-
+                                </div>
+                                <input type="number" id="number" value="0" />
+                                <div class="value-button" id="increase" onclick="increaseValue()"
+                                    value="Increase Value">+
+                                </div>
+                            </div>
+                            <button class="button-main">ADD TO CART</button>
+                        </form>
+                    </figure>
+                </article>
+                <article>
+                    <figure class="catalog-container">
+                        <img src="./assets/cupcakes/image 9.png" alt="Cupcake 10">
+                        <figcaption>
+                            <h3>Totally nuts</h3>
+                            <p>
+                                A sweet hazelnut paste with nutella butter cream and chopped hazelnuts on the top.
+                            </p>
+                        </figcaption>
+                        <form class="button-container">
+                            <div class="increase-decrease">
+                                <div class="value-button" id="decrease" onclick="decreaseValue()"
+                                    value="Decrease Value">-
+                                </div>
+                                <input type="number" id="number" value="0" />
+                                <div class="value-button" id="increase" onclick="increaseValue()"
+                                    value="Increase Value">+
+                                </div>
+                            </div>
+                            <button class="button-main">ADD TO CART</button>
+                        </form>
+                    </figure>
+                </article>
+                <article>
+                    <figure class="catalog-container">
+                        <img src="./assets/cupcakes/image 10.png" alt="Cupcake 11">
+                        <figcaption>
+                            <h3>Pink Vanilla</h3>
+                            <p>
+                                Soft, fluffy, and extra moist creamy vanilla buttercream with extra sprinkles
+                            </p>
+                        </figcaption>
+                        <form class="button-container">
+                            <div class="increase-decrease">
+                                <div class="value-button" id="decrease" onclick="decreaseValue()"
+                                    value="Decrease Value">-
+                                </div>
+                                <input type="number" id="number" value="0" />
+                                <div class="value-button" id="increase" onclick="increaseValue()"
+                                    value="Increase Value">+
+                                </div>
+                            </div>
+                            <button class="button-main">ADD TO CART</button>
+                        </form>
+                    </figure>
+                </article>
+            </section>
+            <section>
+                <h2>
+                    once upon a time..
+                </h2>
+                <p>
+                    The art of baking runs deep in our family. Growing up on our family we learned from the best. Our
+                    mom was an amazing baker. She not only taught us how to bake, she passed along her values of
+                    quality, honesty and integrity.
+                </p>
+                <button class="button-main">OUR STORY</button>
+                <img src="./assets/About image.png" alt="Cupcakes">
+            </section>
+        </main>
+        <footer>
+            <h2>Miss Cupcake</h2>
+            <form action="">
+                <label for="email">Suger up your inbox</label>
+                <input type="email" name="email" id="email" placeholder="Email address">
+                <button>SEND</button>
+            </form>
+            <div class="footer-link">
+                <a href="#shop">Shop</a>
+                <a href="#ourstory">Our Story</a>
+                <a href="#why">Why Miss cupcake</a>
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#cookies">Cookies Policy</a>
+                <a href="#tos">Terms of use</a>
+            </div>
+            <p>&copy; MISS CUPCAKES 2021</p>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

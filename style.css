@@ -1,0 +1,168 @@
+/*CSS Reset*/
+:root {
+  --main-purple: hsla(271, 55%, 39%, 1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background: url(./assets/bg.png);
+  background-repeat: no-repeat;
+  color: var(--main-purple);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Wendy One', sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 52px;
+}
+
+.header-image {
+  margin-left: 70px;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-bottom: 50px;
+}
+
+.button-main {
+  height: 43px;
+  width: 206px;
+  background: var(--main-purple);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+}
+
+/*
+Atom CSS
+*/
+
+.margin-left-12 {
+  margin-left: 12px;
+}
+
+.margin-right-12 {
+  margin-right: 12px;
+}
+
+.margin-bottom-22 {
+  margin-bottom: 22px;
+}
+
+.margin-bottom-34 {
+  margin-bottom: 34px;
+}
+
+.margin-bottom-46 {
+  margin-bottom: 46px;
+}
+
+.line-height-24 {
+  line-height: 24px;
+}
+
+.line-height-26 {
+  line-height: 26px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cupcake-2 {
+  margin-top: 72px;
+}
+
+.section-2 {
+  margin-top: 120px;
+}
+
+.section-2 h2 {
+  margin-bottom: 138px;
+}
+
+.catalog-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.catalog-container img {
+  margin-bottom: 30px;
+}
+
+.catalog-container h3 {
+  font-size: 2em;
+}
+
+.catalog-container p {
+  margin-bottom: 36px;
+}
+
+.increase-decrease {
+  display: flex;
+  height: 43px;
+  width: 100px;
+  border: 2px var(--main-purple) solid;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.increase-decrease input {
+  border: none;
+  background: transparent;
+  width: 33%;
+}
+
+.value-button {
+  width: 33%;
+}
+
+.button-container {
+  display: flex;
+}
