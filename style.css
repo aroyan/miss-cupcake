@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Wendy+One&display=swap');
+
 /*CSS Reset*/
 :root {
   --main-purple: hsla(271, 55%, 39%, 1);
@@ -153,16 +155,11 @@ Atom CSS
   margin-right: 30px;
 }
 
-.increase-decrease input {
-  border: none;
-  background: transparent;
-  width: 33%;
-}
-
-.value-button {
-  width: 33%;
-}
-
 .button-container {
   display: flex;
+}
+
+.increase-decrease span {
+  font-size: 1.5em;
+  margin: 0 4px;
 }

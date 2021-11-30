@@ -1,14 +1,21 @@
-function increaseValue() {
-  var value = parseInt(document.getElementById('number').value, 10);
-  value = isNaN(value) ? 0 : value;
-  value++;
-  document.getElementById('number').value = value;
-}
+let counterDisplayElem = document.querySelector('.counter-display');
+let counterMinusElem = document.querySelector('.counter-minus');
+let counterPlusElem = document.querySelector('.counter-plus');
 
-function decreaseValue() {
-  var value = parseInt(document.getElementById('number').value, 10);
-  value = isNaN(value) ? 0 : value;
-  value < 1 ? (value = 1) : '';
-  value--;
-  document.getElementById('number').value = value;
+let count = 0;
+
+updateDisplay();
+
+counterPlusElem.addEventListener('click', () => {
+  count++;
+  updateDisplay();
+});
+
+counterMinusElem.addEventListener('click', () => {
+  count--;
+  updateDisplay();
+});
+
+function updateDisplay() {
+  counterDisplayElem.innerHTML = count;
 }
