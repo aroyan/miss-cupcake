@@ -17,6 +17,7 @@ body {
   background: url(./assets/bg.png);
   background-repeat: no-repeat;
   color: var(--main-purple);
+  padding-bottom: 24px;
 }
 
 h1,
@@ -232,5 +233,5 @@ footer button {
   color: #fdefd1;
   font-size: 18px;
   text-decoration: none;
-  padding-bottom: 24px;
+  margin-bottom: 24px;
 }
