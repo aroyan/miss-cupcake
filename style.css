@@ -11,6 +11,10 @@
   box-sizing: border-box;
 }
 
+html {
+  background-color: #5d3394;
+}
+
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
@@ -62,10 +66,6 @@ header {
   color: #fff;
   border: none;
   border-radius: 8px;
-}
-
-.main-container {
-  padding-bottom: 24px;
 }
 
 /*
