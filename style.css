@@ -17,7 +17,6 @@ body {
   background: url(./assets/bg.png);
   background-repeat: no-repeat;
   color: var(--main-purple);
-  padding-bottom: 24px;
 }
 
 h1,
@@ -63,6 +62,10 @@ header {
   color: #fff;
   border: none;
   border-radius: 8px;
+}
+
+.main-container {
+  padding-bottom: 24px;
 }
 
 /*
