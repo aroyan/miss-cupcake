@@ -92,6 +92,10 @@ header {
   display: none;
 }
 
+.header-image img:nth-child(3) {
+  display: none;
+}
+
 /*
 Atom CSS
 */
@@ -136,6 +140,10 @@ Atom CSS
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.section-1 > .image-container img:nth-child(2) {
+  display: none;
 }
 
 .cupcake-2 {
@@ -207,6 +215,10 @@ Atom CSS
 .section-3 button {
   margin-top: 19px;
   margin-bottom: 74px;
+}
+
+.section-3 > .image-container img:nth-child(2) {
+  display: none;
 }
 
 footer {
@@ -448,5 +460,62 @@ Tablet viewport
   .link-container > p {
     margin-top: 48px;
     margin-left: 24px;
+  }
+}
+
+@media screen and (min-width: 961px) {
+  body {
+    background: url(./assets/bg-desktop.png);
+    background-repeat: no-repeat;
+  }
+
+  .header-image img:nth-child(2) {
+    display: none;
+  }
+
+  .header-image img:nth-child(3) {
+    display: block;
+  }
+
+  .section-1 > .image-container img:nth-child(1) {
+    display: none;
+  }
+
+  .section-1 > .image-container img:nth-child(2) {
+    display: block;
+  }
+
+  .section-1 > .text-container {
+    max-width: 40%;
+    margin: 0;
+  }
+
+  .section-1 > .text-container h2 {
+    max-width: 60%;
+  }
+
+  .section-1 {
+    margin: 160px 0;
+  }
+
+  .section-2 h2 {
+    margin-bottom: 160px;
+  }
+
+  .section-2 .catalog-container {
+    margin-bottom: calc(72 * 3px);
+  }
+
+  .section-3 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .section-3 > .image-container img:nth-child(2) {
+    display: block;
+  }
+
+  .section-3 > .image-container img:nth-child(1) {
+    display: none;
   }
 }
